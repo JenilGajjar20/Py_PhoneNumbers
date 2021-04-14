@@ -25,11 +25,13 @@ print(timeZone)
 # Getting carrier of a phone number
 Carrier = carrier.name_for_number(p_num, "en")
 print(Carrier)
+# Output: Airtel
 
 
 # Getting region information
 Region = geocoder.description_for_number(p_num, "en")
 print(Region)
+# Output: India
 
 
 # Validating a phone number
