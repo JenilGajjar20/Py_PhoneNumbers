@@ -18,7 +18,7 @@ First, we do parse the string input to phonenumber format, and then we use an in
 It gives the output for valid numbers only.
 
 ## 3. Carrier and Region of a phonenumber:
-Import the modules using phonenumbers module eg:-> <b> from phonenumbers import carrier </b> and <b> from phonenumbers import geocoder </b>.
+Import the modules using phonenumbers module eg:-> <b> from phonenumbers import carrier, geocoder </b>.
 
 ## 4. Validation of a phonenumber:
 To check whether a given phone number is valid or not use --> <b> is_valid_number() </b> method and 
