@@ -6,7 +6,7 @@ from phonenumbers import carrier
 
 # Parsing string to Phone number
 # Phone number format: (+Country Code)
-p_num = phonenumbers.parse("+917600697082")  # Enter your Phone Number
+p_num = phonenumbers.parse("+91760069XXXX")  # Enter your Phone Number
 
 
 # This will print the Phone number and the basic details
